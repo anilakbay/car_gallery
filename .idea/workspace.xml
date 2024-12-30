@@ -4,44 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7616d6ae-6352-4e99-a40a-806a5366baf6" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/enums/CarStatusType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/enums/CurrencyType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/model/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/model/Address.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/model/BaseEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/model/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/model/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/model/Gallerist.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/model/GalleristCar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/model/RefreshToken.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/model/SaledCar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/starter/CarGalleryStarter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2024-12-29T12-35-45_920.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2024-12-29T12-36-17_200.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.anilakbay.starter.CarGalleryApplicationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.anilakbay.starter.CarGalleryApplicationTests.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/anilakbay/starter/CarGalleryApplicationTests.class" afterDir="false" />
-    </list>
+    <list default="true" id="7616d6ae-6352-4e99-a40a-806a5366baf6" name="Changes" comment="model, service, controller, repository, dto, enums is updated." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -213,7 +176,7 @@
       <workItem from="1735516534804" duration="1017000" />
       <workItem from="1735517574597" duration="1721000" />
       <workItem from="1735546620618" duration="3113000" />
-      <workItem from="1735550679774" duration="4698000" />
+      <workItem from="1735550679774" duration="5008000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -271,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735549212156</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="model, service, controller, repository, dto, enums is updated.">
+      <option name="closed" value="true" />
+      <created>1735556155082</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1735556155082</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,9 +274,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="model, service, repository, dto, enums" />
     <MESSAGE value="model, service, repository, dto, enums is created" />
-    <MESSAGE value="Initial commit" />
     <MESSAGE value="Update .gitattributes and .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update .gitattributes and .gitignore" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="model, service, controller, repository, dto, enums is updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="model, service, controller, repository, dto, enums is updated." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

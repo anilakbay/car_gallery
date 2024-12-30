@@ -1,0 +1,13 @@
+com\anilakbay\model\Car.class
+com\anilakbay\model\Customer.class
+com\anilakbay\model\SaledCar.class
+com\anilakbay\model\BaseEntity.class
+com\anilakbay\enums\CarStatusType.class
+com\anilakbay\starter\CarGalleryStarter.class
+com\anilakbay\model\Address.class
+com\anilakbay\model\RefreshToken.class
+com\anilakbay\model\User.class
+com\anilakbay\enums\CurrencyType.class
+com\anilakbay\model\GalleristCar.class
+com\anilakbay\model\Account.class
+com\anilakbay\model\Gallerist.class

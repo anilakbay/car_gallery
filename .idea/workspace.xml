@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7616d6ae-6352-4e99-a40a-806a5366baf6" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/enums/CarStatusType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/enums/CurrencyType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/model/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/model/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/model/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/model/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/model/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/model/Gallerist.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/model/GalleristCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/model/RefreshToken.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/model/SaledCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/starter/CarGalleryStarter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2024-12-29T12-35-45_920.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2024-12-29T12-36-17_200.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.anilakbay.starter.CarGalleryApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.anilakbay.starter.CarGalleryApplicationTests.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/anilakbay/starter/CarGalleryApplicationTests.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;anilakbay&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/anilakbay/car_gallery&quot;,
+    &quot;accountId&quot;: &quot;82c7e6c3-9a86-46a5-aff7-7f82844f29d2&quot;
+  }
+}</component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2qqaTqcgUOOBwBUdtXzELUyaBQd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.All in car_gallery (1).executor": "Run",
+    "JUnit.All in car_gallery.executor": "Run",
+    "JUnit.CarGalleryApplicationTests.executor": "Run",
+    "Maven.car_gallery [clean].executor": "Run",
+    "Maven.car_gallery [install].executor": "Run",
+    "Maven.car_gallery [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.CarGalleryStarter.executor": "Run",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Java/car_gallery",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.CarGalleryStarter">
+    <configuration name="All in car_gallery (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="car_gallery" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in car_gallery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="car_gallery" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarGalleryApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="car_gallery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anilakbay.starter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.anilakbay.starter" />
+      <option name="MAIN_CLASS_NAME" value="com.anilakbay.starter.CarGalleryApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarGalleryStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="car_gallery" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.anilakbay.starter.CarGalleryStarter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CarGalleryApplicationTests" />
+        <item itemvalue="JUnit.All in car_gallery" />
+        <item itemvalue="JUnit.All in car_gallery (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\anila\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7616d6ae-6352-4e99-a40a-806a5366baf6" name="Changes" comment="" />
+      <created>1735392569707</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735392569707</updated>
+      <workItem from="1735392570958" duration="13474000" />
+      <workItem from="1735459500861" duration="4376000" />
+      <workItem from="1735464270723" duration="5946000" />
+      <workItem from="1735506872858" duration="505000" />
+      <workItem from="1735507396039" duration="110000" />
+      <workItem from="1735507782425" duration="37000" />
+      <workItem from="1735507858071" duration="828000" />
+      <workItem from="1735509564415" duration="162000" />
+      <workItem from="1735509773168" duration="539000" />
+      <workItem from="1735510331128" duration="942000" />
+      <workItem from="1735511305737" duration="330000" />
+      <workItem from="1735511667295" duration="3679000" />
+      <workItem from="1735515589759" duration="845000" />
+      <workItem from="1735516534804" duration="1017000" />
+      <workItem from="1735517574597" duration="1721000" />
+      <workItem from="1735546620618" duration="3113000" />
+      <workItem from="1735550679774" duration="4698000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1735514485209</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735514485209</updated>
+    </task>
+    <task id="LOCAL-00002" summary="model, service, repository, dto, enums is created">
+      <option name="closed" value="true" />
+      <created>1735516981002</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735516981002</updated>
+    </task>
+    <task id="LOCAL-00003" summary="model, service, repository, dto, enums is created">
+      <option name="closed" value="true" />
+      <created>1735517661739</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1735517661739</updated>
+    </task>
+    <task id="LOCAL-00004" summary="model, service, repository, dto, enums is created">
+      <option name="closed" value="true" />
+      <created>1735517675443</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735517675443</updated>
+    </task>
+    <task id="LOCAL-00005" summary="model, service, repository, dto, enums is created">
+      <option name="closed" value="true" />
+      <created>1735517878488</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735517878488</updated>
+    </task>
+    <task id="LOCAL-00006" summary="model, service, repository, dto, enums is created">
+      <option name="closed" value="true" />
+      <created>1735518557588</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1735518557588</updated>
+    </task>
+    <task id="LOCAL-00007" summary="model, service, repository, dto, enums is created">
+      <option name="closed" value="true" />
+      <created>1735549212156</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1735549212156</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="model, service, repository, dto, enums" />
+    <MESSAGE value="model, service, repository, dto, enums is created" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Update .gitattributes and .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update .gitattributes and .gitignore" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

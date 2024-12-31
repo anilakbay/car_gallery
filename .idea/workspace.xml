@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7616d6ae-6352-4e99-a40a-806a5366baf6" name="Changes" comment="model, service, controller, repository, dto, enums is updated.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/exception/BaseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/exception/ErrorMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/exception/MessageType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/IAdressService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/impl/AdressServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/handler/ApiError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/handler/Exception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/jwt/JWTAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/jwt/JWTService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anilakbay/exception/MessageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/exception/MessageType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +44,12 @@
     &quot;assignee&quot;: &quot;anilakbay&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/anilakbay/car_gallery.git",
-    "accountId": "82c7e6c3-9a86-46a5-aff7-7f82844f29d2"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/anilakbay/car_gallery.git&quot;,
+    &quot;accountId&quot;: &quot;82c7e6c3-9a86-46a5-aff7-7f82844f29d2&quot;
   }
-}]]></component>
+}</component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
   </component>
@@ -188,7 +189,11 @@
       <workItem from="1735517574597" duration="1721000" />
       <workItem from="1735546620618" duration="3113000" />
       <workItem from="1735550679774" duration="6152000" />
-      <workItem from="1735557671633" duration="2352000" />
+      <workItem from="1735557671633" duration="2830000" />
+      <workItem from="1735582284928" duration="467000" />
+      <workItem from="1735583348731" duration="4402000" />
+      <workItem from="1735596795312" duration="4462000" />
+      <workItem from="1735601451435" duration="1748000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />

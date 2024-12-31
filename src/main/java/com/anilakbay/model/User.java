@@ -21,6 +21,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class User extends BaseEntity implements UserDetails {
+
     @Column(name = "username")
     private String username;
 

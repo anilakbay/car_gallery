@@ -12,13 +12,12 @@ import lombok.Setter;
 public class ErrorMessage {
 
     private MessageType messageType;
-
     private String ofStatic;
 
     public String prepareErrorMessage(){
         StringBuilder builder = new StringBuilder();
         builder.append(messageType.getMessage());
-        if(this.ofStatic!=null) {
+        if(this.ofStatic != null) {
             builder.append(" : " + ofStatic);
         }
         return builder.toString();

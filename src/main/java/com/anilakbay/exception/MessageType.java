@@ -10,12 +10,11 @@ public enum MessageType {
     USERNAME_NOT_FOUND("1006", "username bulunamadı!"),
     GENERAL_EXCEPTION("9999", "Genel bir hata oluştu");
 
-    private String code;
-    private String message;
+    private final String code;
+    private final String message;
 
     MessageType(String code, String message){
         this.code = code;
         this.message = message;
     }
-
 }

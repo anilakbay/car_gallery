@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7616d6ae-6352-4e99-a40a-806a5366baf6" name="Changes" comment="model, service, controller, repository, dto, enums is updated.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/handler/ApiError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/handler/Exception.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/jwt/JWTAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/jwt/JWTService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/anilakbay/exception/MessageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/exception/MessageType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -193,7 +190,9 @@
       <workItem from="1735582284928" duration="467000" />
       <workItem from="1735583348731" duration="4402000" />
       <workItem from="1735596795312" duration="4462000" />
-      <workItem from="1735601451435" duration="1748000" />
+      <workItem from="1735601451435" duration="1988000" />
+      <workItem from="1735632584328" duration="5026000" />
+      <workItem from="1735639655556" duration="233000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />

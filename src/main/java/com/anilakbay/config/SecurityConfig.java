@@ -1,5 +1,6 @@
 package com.anilakbay.config;
 
+import com.anilakbay.handler.AuthEntryPoint;
 import com.anilakbay.jwt.JWTAuthenticationFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -17,7 +18,7 @@ import java.net.http.HttpRequest;
 public class SecurityConfig {
 
     public static final String REGISTER = "/register";
-    public static final String AUTHENTICATE = "/authentication";
+    public static final String AUTHENTICATE = "/authenticate";
     public static final String REFRESH_TOKEN = "/refreshToken";
 
     @Autowired
@@ -26,12 +27,16 @@ public class SecurityConfig {
     @Autowired
     private JWTAuthenticationFilter jwtAuthenticationFilter;
 
+    @Autowired
+    private AuthEntryPoint authEntryPoint;
+
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http.csrf().disable()
                 .authorizeHttpRequests(request->
                         request.requestMatchers(REGISTER, AUTHENTICATE, REFRESH_TOKEN).permitAll()
                                 .anyRequest()
                                 .authenticated())
+                .exceptionHandling().authenticationEntryPoint(authEntryPoint).and()
                 .sessionManagement(session-> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authenticationProvider(authenticationProvider)
                 .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);

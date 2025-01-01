@@ -1,15 +1,16 @@
 package com.anilakbay.jwt;
 
+import com.anilakbay.model.User;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
 import java.security.Key;
 import java.util.Date;
+import java.util.Optional;
 import java.util.function.Function;
 
 @Service
@@ -17,9 +18,9 @@ public class JWTService {
 
     public static final String SECRET_KEY = "fMw7qkYMcLiScWNaGvCD50rQuvWVMPosCvDfNPEZdSE=";
 
-    public String generateToken(UserDetails userDetails) {
+    public String generateToken(Optional<User> userDetails) {
                 return Jwts.builder()
-                .setSubject(userDetails.getUsername())
+                .setSubject(userDetails.get().getUsername())
                 .setIssuedAt(new Date())
                 .setExpiration(new Date(System.currentTimeMillis() + 1000*60*60*2))
                 .signWith(getKey(), SignatureAlgorithm.HS256)

@@ -10,7 +10,6 @@ import org.springframework.stereotype.Service;
 
 import java.security.Key;
 import java.util.Date;
-import java.util.Optional;
 import java.util.function.Function;
 
 @Service
@@ -18,7 +17,7 @@ public class JWTService {
 
     public static final String SECRET_KEY = "fMw7qkYMcLiScWNaGvCD50rQuvWVMPosCvDfNPEZdSE=";
 
-    public String generateToken(Optional<User> userDetails) {
+    public String generateToken(User userDetails) {
                 return Jwts.builder()
                 .setSubject(userDetails.get().getUsername())
                 .setIssuedAt(new Date())

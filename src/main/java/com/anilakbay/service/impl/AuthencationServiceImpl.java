@@ -3,6 +3,7 @@ package com.anilakbay.service.impl;
 import com.anilakbay.dto.AuthRequest;
 import com.anilakbay.dto.AuthResponse;
 import com.anilakbay.dto.DtoUser;
+import com.anilakbay.dto.RefreshTokenRequest;
 import com.anilakbay.exception.BaseException;
 import com.anilakbay.exception.ErrorMessage;
 import com.anilakbay.exception.MessageType;
@@ -20,6 +21,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
+import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
@@ -41,7 +43,7 @@ public class AuthencationServiceImpl implements IAuthenticationService {
     @Autowired
     private RefreshTokenRepository refreshTokenRepository;
 
-    private User createUser(AuthRequest input) {
+    private User createUser(User input) {
         User user = new User();
         user.setCreatedTime(new Date());
         user.setUsername(input.getUsername());
@@ -81,7 +83,7 @@ public class AuthencationServiceImpl implements IAuthenticationService {
 
             Optional<User> optUser = userRepository.findByUsername(input.getUsername());
 
-            String accessToken = jwtService.generateToken(optUser);
+            String accessToken = jwtService.generateToken(optUser.orElse(null));
             RefreshToken savedRefreshToken = refreshTokenRepository.save(createRefreshToken(optUser.get()));
 
             return new AuthResponse(accessToken, savedRefreshToken.getRefreshToken());
@@ -90,5 +92,28 @@ public class AuthencationServiceImpl implements IAuthenticationService {
             throw new BaseException(new ErrorMessage(MessageType.USERNAME_OR_PASSWORD_INVALID, e.getMessage()));
         }
 
+    }
+
+    public boolean isValidRefreshToken(Date expiredDate) {
+        return new Date().before(expiredDate);
+    }
+
+    @Override
+    public AuthResponse refreshToken(RefreshTokenRequest input) {
+
+        List<RefreshToken> optRefreshToken = refreshTokenRepository.findByRefreshToken(input.getRefreshToken());
+        if(optRefreshToken.isEmpty()) {
+            throw new BaseException(new ErrorMessage(MessageType.REFRESH_TOKEN_NOT_FOUND, input.getRefreshToken()));
+        }
+
+        if(!isValidRefreshToken(optRefreshToken.get(0).getExpirationDate())) {
+            throw new BaseException(new ErrorMessage(MessageType.REFRESH_TOKEN_IS_EXPIRED, input.getRefreshToken()));
+        }
+
+        User user = optRefreshToken.get(0).getUser();
+        String accessToken = jwtService.generateToken(user);
+        refreshTokenRepository.save(createRefreshToken(user));
+
+        return null;
     }
 }

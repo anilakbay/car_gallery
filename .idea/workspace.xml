@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7616d6ae-6352-4e99-a40a-806a5366baf6" name="Changes" comment="model, service, controller, repository, dto, enums is updated.">
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/AuthResponse.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/handler/AuthEntryPoint.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/repository/RefreshTokenRepository.java" afterDir="false" />
@@ -19,6 +21,35 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/impl/AuthencationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/impl/AuthencationServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/AuthRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/AuthResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/DtoBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/DtoUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/RefreshTokenRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/AuthRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/AuthResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/DtoBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/DtoUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/RefreshTokenRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> Stashed changes
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anilakbay/model/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anilakbay/model/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anilakbay/model/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anilakbay/model/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anilakbay/model/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anilakbay/model/Gallerist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anilakbay/model/GalleristCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anilakbay/model/RefreshToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anilakbay/model/SaledCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anilakbay/starter/CarGalleryStarter.class" beforeDir="false" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +111,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< Updated upstream
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.All in car_gallery (1).executor": "Run",
@@ -106,6 +138,34 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "editor.preferences.import",
     "vue.rearranger.settings.migration": "true"
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.All in car_gallery (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in car_gallery.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CarGalleryApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.car_gallery [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.car_gallery [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.car_gallery [package].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CarGalleryStarter.executor&quot;: &quot;Run&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;0e5a294b&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java/car_gallery&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+>>>>>>> Stashed changes
   },
   "keyToStringList": {
     "GitStage.ChangesTree.GroupingKeys": [
@@ -203,6 +263,7 @@
       <workItem from="1735517574597" duration="1721000" />
       <workItem from="1735546620618" duration="3113000" />
       <workItem from="1735550679774" duration="6152000" />
+<<<<<<< Updated upstream
       <workItem from="1735557671633" duration="2830000" />
       <workItem from="1735582284928" duration="467000" />
       <workItem from="1735583348731" duration="4402000" />
@@ -217,6 +278,15 @@
       <workItem from="1735740715718" duration="4043000" />
       <workItem from="1735748525180" duration="5157000" />
       <workItem from="1735763481448" duration="2145000" />
+=======
+      <workItem from="1735557671633" duration="2352000" />
+      <workItem from="1735806350487" duration="1806000" />
+      <workItem from="1735983500455" duration="198000" />
+      <workItem from="1735983766937" duration="531000" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />

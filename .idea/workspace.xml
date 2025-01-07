@@ -4,52 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7616d6ae-6352-4e99-a40a-806a5366baf6" name="Changes" comment="model, service, controller, repository, dto, enums is updated.">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/AuthResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/handler/AuthEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/repository/RefreshTokenRepository.java" afterDir="false" />
+    <list default="true" id="c0ac1903-cd0e-4ab5-83c3-fbb867174a9e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/controller/IRestAddressController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/controller/impl/RestAddressControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/DtoAdress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/DtoAdressIU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/repository/AdressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/impl/AddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/model/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/model/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/starter/CarGalleryStarter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anilakbay/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/anilakbay/controller/IRestAuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/controller/IRestAuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anilakbay/controller/RestBaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/controller/RestBaseController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/anilakbay/controller/impl/RestAuthenticationControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/controller/impl/RestAuthenticationControllerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anilakbay/exception/MessageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/exception/MessageType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anilakbay/jwt/JWTService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/jwt/JWTService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anilakbay/jwt/JWTAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/jwt/JWTAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/IAdressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/IAdressService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/IAuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/IAuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/impl/AdressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/impl/AdressServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/impl/AuthencationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/impl/AuthencationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/AuthRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/AuthResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/DtoBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/DtoUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/RefreshTokenRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/AuthRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/AuthResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/DtoBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/DtoUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/RefreshTokenRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
->>>>>>> Stashed changes
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anilakbay/model/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anilakbay/model/Address.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anilakbay/model/BaseEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anilakbay/model/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anilakbay/model/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anilakbay/model/Gallerist.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anilakbay/model/GalleristCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anilakbay/model/RefreshToken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anilakbay/model/SaledCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anilakbay/starter/CarGalleryStarter.class" beforeDir="false" />
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anilakbay/enums/CarStatusType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anilakbay/enums/CurrencyType.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +34,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -98,7 +72,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="Security Analysis" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -111,34 +85,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< Updated upstream
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.All in car_gallery (1).executor": "Run",
-    "JUnit.All in car_gallery.executor": "Run",
-    "JUnit.CarGalleryApplicationTests.executor": "Run",
-    "Maven.car_gallery [clean].executor": "Run",
-    "Maven.car_gallery [install].executor": "Run",
-    "Maven.car_gallery [package].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.CarGalleryStarter.executor": "Run",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/anila/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.30/tomcat-embed-core-10.1.30.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.import",
-    "vue.rearranger.settings.migration": "true"
-=======
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;JUnit.All in car_gallery (1).executor&quot;: &quot;Run&quot;,
@@ -155,28 +101,56 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;Spring Boot.CarGalleryStarter.executor&quot;: &quot;Run&quot;,
     &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;0e5a294b&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Java/car_gallery&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/anila/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.30/tomcat-embed-core-10.1.30.jar&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
->>>>>>> Stashed changes
+=======
+  &lt;component name=&quot;PropertiesComponent&quot;&gt;{
+  &amp;quot;keyToString&amp;quot;: {
+    &amp;quot;JUnit.All in car_gallery (1).executor&amp;quot;: &amp;quot;Run&amp;quot;,
+    &amp;quot;JUnit.All in car_gallery.executor&amp;quot;: &amp;quot;Run&amp;quot;,
+    &amp;quot;JUnit.CarGalleryApplicationTests.executor&amp;quot;: &amp;quot;Run&amp;quot;,
+    &amp;quot;Maven.car_gallery [clean].executor&amp;quot;: &amp;quot;Run&amp;quot;,
+    &amp;quot;Maven.car_gallery [install].executor&amp;quot;: &amp;quot;Run&amp;quot;,
+    &amp;quot;Maven.car_gallery [package].executor&amp;quot;: &amp;quot;Run&amp;quot;,
+    &amp;quot;RequestMappingsPanelOrder0&amp;quot;: &amp;quot;0&amp;quot;,
+    &amp;quot;RequestMappingsPanelOrder1&amp;quot;: &amp;quot;1&amp;quot;,
+    &amp;quot;RequestMappingsPanelWidth0&amp;quot;: &amp;quot;75&amp;quot;,
+    &amp;quot;RequestMappingsPanelWidth1&amp;quot;: &amp;quot;75&amp;quot;,
+    &amp;quot;RunOnceActivity.ShowReadmeOnStart&amp;quot;: &amp;quot;true&amp;quot;,
+    &amp;quot;RunOnceActivity.git.unshallow&amp;quot;: &amp;quot;true&amp;quot;,
+    &amp;quot;Spring Boot.CarGalleryStarter.executor&amp;quot;: &amp;quot;Run&amp;quot;,
+    &amp;quot;com.codeium.enabled&amp;quot;: &amp;quot;true&amp;quot;,
+    &amp;quot;git-widget-placeholder&amp;quot;: &amp;quot;0e5a294b&amp;quot;,
+    &amp;quot;kotlin-language-version-configured&amp;quot;: &amp;quot;true&amp;quot;,
+    &amp;quot;last_opened_file_path&amp;quot;: &amp;quot;D:/Java/car_gallery&amp;quot;,
+    &amp;quot;node.js.detected.package.eslint&amp;quot;: &amp;quot;true&amp;quot;,
+    &amp;quot;node.js.detected.package.tslint&amp;quot;: &amp;quot;true&amp;quot;,
+    &amp;quot;node.js.selected.package.eslint&amp;quot;: &amp;quot;(autodetect)&amp;quot;,
+    &amp;quot;node.js.selected.package.tslint&amp;quot;: &amp;quot;(autodetect)&amp;quot;,
+    &amp;quot;nodejs_package_manager_path&amp;quot;: &amp;quot;npm&amp;quot;,
+    &amp;quot;settings.editor.selected.configurable&amp;quot;: &amp;quot;project.propVCSSupport.DirectoryMappings&amp;quot;,
+    &amp;quot;vue.rearranger.settings.migration&amp;quot;: &amp;quot;true&amp;quot;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.anilakbay.service.impl" />
       <recent name="com.anilakbay.service" />
     </key>
   </component>
@@ -241,7 +215,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7616d6ae-6352-4e99-a40a-806a5366baf6" name="Changes" comment="" />
+      <changelist id="c0ac1903-cd0e-4ab5-83c3-fbb867174a9e" name="Changes" comment="" />
       <created>1735392569707</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -263,7 +237,6 @@
       <workItem from="1735517574597" duration="1721000" />
       <workItem from="1735546620618" duration="3113000" />
       <workItem from="1735550679774" duration="6152000" />
-<<<<<<< Updated upstream
       <workItem from="1735557671633" duration="2830000" />
       <workItem from="1735582284928" duration="467000" />
       <workItem from="1735583348731" duration="4402000" />
@@ -278,15 +251,12 @@
       <workItem from="1735740715718" duration="4043000" />
       <workItem from="1735748525180" duration="5157000" />
       <workItem from="1735763481448" duration="2145000" />
-=======
       <workItem from="1735557671633" duration="2352000" />
       <workItem from="1735806350487" duration="1806000" />
       <workItem from="1735983500455" duration="198000" />
       <workItem from="1735983766937" duration="531000" />
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+      <workItem from="1736153352236" duration="3738000" />
+      <workItem from="1736238748758" duration="2810000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />

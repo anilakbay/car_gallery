@@ -62,7 +62,7 @@ public class AuthencationServiceImpl implements IAuthenticationService {
     }
 
     @Override
-    public DtoUser register(AuthRequest input) {
+    public DtoUser register(User input) {
 
         DtoUser dtoUser = new DtoUser();
 
@@ -112,8 +112,8 @@ public class AuthencationServiceImpl implements IAuthenticationService {
 
         User user = optRefreshToken.get(0).getUser();
         String accessToken = jwtService.generateToken(user);
-        refreshTokenRepository.save(createRefreshToken(user));
+        RefreshToken savedRefreshToken = refreshTokenRepository.save(createRefreshToken(user));
 
-        return null;
+        return new AuthResponse(accessToken, savedRefreshToken.getRefreshToken());
     }
 }

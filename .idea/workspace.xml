@@ -5,25 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0ac1903-cd0e-4ab5-83c3-fbb867174a9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/controller/IRestAddressController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/controller/impl/RestAddressControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/DtoAdress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/DtoAdressIU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/repository/AdressRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/impl/AddressRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/model/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/model/Address.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/anilakbay/starter/CarGalleryStarter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/controller/IRestAccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/controller/impl/RestAccountControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/DtoAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/DtoAccountIU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/DtoCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/dto/DtoCustomerIU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/repository/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/impl/CustomerServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anilakbay/controller/IRestAuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/controller/IRestAuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anilakbay/controller/impl/RestAuthenticationControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/controller/impl/RestAuthenticationControllerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anilakbay/jwt/JWTAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/jwt/JWTAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/IAdressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/IAdressService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/IAuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/IAuthenticationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/impl/AdressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/impl/AdressServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/impl/AuthencationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/impl/AuthencationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anilakbay/enums/CarStatusType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anilakbay/enums/CurrencyType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anilakbay/model/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/model/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/impl/AddressRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anilakbay/service/impl/AddressRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +252,9 @@
       <workItem from="1735983500455" duration="198000" />
       <workItem from="1735983766937" duration="531000" />
       <workItem from="1736153352236" duration="3738000" />
-      <workItem from="1736238748758" duration="2810000" />
+      <workItem from="1736238748758" duration="5276000" />
+      <workItem from="1736274251930" duration="6000000" />
+      <workItem from="1736283219956" duration="2069000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
